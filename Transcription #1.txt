@@ -1,3 +1,8 @@
+   ////////////////////////
+  // Transcription #1   //
+ // by Guillem Gongora //
+////////////////////////
+
 set tempo 75
 
 ring offsets spreadInclusiveFloat(48 0.985 0.789)
