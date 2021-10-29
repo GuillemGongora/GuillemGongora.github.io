@@ -1,0 +1,27 @@
+set tempo 75
+
+ring offsets spreadInclusiveFloat(48 0.985 0.789)
+ring offsets invert(offsets)
+ring offsetsmain lace(offsets offsets offsets offsets)
+new sample nana name(sevilla) g(2)
+    set sevilla time(3/2) speed(-0.33) offset(offsetsmain)
+    set sevilla stretch(0 1 extremestretch)
+    set sevilla fx(filter low 1000 0.3)
+    set sevilla fx(reverb 0.5 15)
+    set sevilla fx(delay 1/2 1/4 0.2 0.2)
+
+ring subtle randomFloat(1 0.1 0.2)
+ring subtle every(subtle 1 8)
+ring shine (0 0 0 0 0 1 2)
+ring gains cosineFloat(4 1.6 0.1 0.9)
+new sample nana name(shiny) g(0.)
+    set shiny time(1/2) offset(subtle)
+    set shiny useNote(1) note(0 shine)
+    set shiny fx(filter hi 2000 0.1)
+    set shiny fx(chip 0.5)
+    set shiny fx(delay 1/8 1/6 0.88 0.88)
+
+ring heartbeat (1 0 0 0 0 1 0)
+new sample kick_min name(kirk)
+    set kirk time(1/16) beat(heartbeat 4.7)
+    set kirk fx(filter low 200 0.2)
