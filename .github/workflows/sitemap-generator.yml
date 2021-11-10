@@ -1,8 +1,6 @@
 name: Generate xml sitemap
 
-on:
-  push:
-    branches: [ main ]
+on: [push]
 
 jobs:
   sitemap_job:
@@ -26,3 +24,4 @@ jobs:
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+        
