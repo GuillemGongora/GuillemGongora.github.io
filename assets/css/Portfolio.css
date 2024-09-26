@@ -1,0 +1,421 @@
+.portfolio {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  padding: 0px 20px;
+}
+
+.classes {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  padding: 0px 20px;
+}
+
+.classes {
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  padding: 0px 20px;
+  color: #222222;
+}
+
+@media (min-width: 992px) {
+  .portfolio .work-thumbnail:hover {
+    color: white;
+    border-radius: 100%;
+    transition-delay: 0s;
+    background-color: rgba(0,0,0,0.7);
+  }
+}
+
+@media (hover) {
+  .classes .class-thumbnail:hover {
+    color: white;
+    border-radius: 100%;
+    transition-delay: 0s;
+    background-color: rgba(0,0,0,0.7);
+  }
+}
+
+@media () {
+  .classes .class-thumbnail:hover {
+    color: white;
+    border-radius: 100%;
+    transition-delay: 0s;
+    background-color: rgba(0,0,0,0.7);
+  }
+}
+
+div {
+  scrollbar-width: thin;
+}
+
+.portfolio .work-date {
+  font-size: 20px;
+  color: #222222;
+}
+
+.portfolio .work-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.classes .class-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio .work-thumbnail {
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 0px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  transition-delay: 0.1s;
+  border-radius: 100%;
+  background: center / contain no-repeat;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: color;
+}
+
+.classes .class-thumbnail {
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 0px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  transition-delay: 0.1s;
+  border-radius: 100%;
+  background: center / contain no-repeat;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: color;
+}
+
+@media (min-width: 992px) {
+  .portfolio .work-thumbnail {
+    text-align: center;
+    color: transparent;
+    position: relative;
+    padding: 0px;
+    background: url("../../assets/img/Out%20of%20the%20blue.jpg") center / contain no-repeat;
+    width: 250px;
+    height: 250px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .classes .class-thumbnail {
+    text-align: center;
+    color: transparent;
+    position: relative;
+    padding: 0px;
+    background: url("../../assets/img/Out%20of%20the%20blue.jpg") center / contain no-repeat;
+    width: 250px;
+    height: 250px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transition-delay: 0.1s;
+    border-radius: 0;
+  }
+}
+
+.portfolio .col {
+  flex: 1 0 0%;
+  margin-bottom: 10px;
+}
+
+.classes .col {
+  flex: 1 0 0%;
+  margin-bottom: 10px;
+}
+
+.portfolio .work-info {
+  color: black;
+  text-align: initial;
+  cursor: initial;
+}
+
+.classes .class-info {
+  color: black;
+  text-align: initial;
+  cursor: initial;
+}
+
+.portfolio .work-video {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .soundcloud-wrapper {
+  position: relative;
+  margin: 30px 0%;
+  height: 0;
+  text-align: center;
+  padding-bottom: 166px;
+}
+
+.portfolio .issuu-wrapper {
+  position: relative;
+  margin: 50px 0%;
+  height: 0;
+  text-align: center;
+  padding-bottom: 75%;
+}
+
+.portfolio .video-wrapper {
+  position: relative;
+  margin: 0 0%;
+  height: 0;
+  text-align: center;
+  padding-bottom: calc(56.25% * 1);
+}
+
+@media (min-width: 992px) {
+  .portfolio .video-wrapper {
+    position: relative;
+    margin: 0 20%;
+    height: 0;
+    text-align: center;
+    padding-bottom: calc(56.25% * 0.6);
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio .soundcloud-wrapper {
+    position: relative;
+    margin: 30px 20%;
+    height: 0;
+    text-align: center;
+    padding-bottom: 166px;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio .issuu-wrapper {
+    position: relative;
+    margin: 50px 20%;
+    height: 0;
+    text-align: center;
+    padding-bottom: 45%;
+  }
+}
+
+.portfolio .contact-link {
+  position: absolute;
+  text-align: center;
+  margin: 50px 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding-bottom: 50px;
+}
+
+.classes .contact-link {
+  position: absolute;
+  text-align: center;
+  margin: 50px 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding-bottom: 50px;
+}
+
+.portfolio .max8-logo {
+  width: 50px;
+  margin: 20px;
+}
+
+.work-text {
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+.class-text {
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+#piece-1 {
+  background-image: url("../../assets/img/Dama%20d%27Arago.jpg");
+}
+
+#piece-2 {
+  background-image: url("../../assets/img/Tres%20punts%20i%20a%20part.jpg");
+}
+
+#piece-3 {
+  background-image: url("../../assets/img/Sueño%20de%20deseo.jpg");
+}
+
+#piece-4 {
+  background-image: url("../../assets/img/12%20Preludis.jpg");
+}
+
+#piece-5 {
+  background-image: url("../../assets/img/Una%20Profecia%20de%20Nadal.jpg");
+}
+
+#piece-6 {
+  background-image: url("../../assets/img/From%20a%20Balcony.jpg");
+}
+
+#piece-7 {
+  background-image: url("../../assets/img/Processus.jpg");
+}
+
+#piece-8 {
+  background-image: url("../../assets/img/Nachtstuck.jpg");
+}
+
+#piece-9 {
+  background-image: url("../../assets/img/Metallic%20call.jpg");
+}
+
+#piece-10 {
+  background-image: url("../../assets/img/Five%20Chinese%20Poems.jpg");
+}
+
+#piece-11 {
+  background-image: url("../../assets/img/Sonatina%20for%20piano.jpg");
+}
+
+#piece-12 {
+  background-image: url("../../assets/img/Will%20always%20get%20through.jpg");
+}
+
+#piece-13 {
+  background-image: url("../../assets/img/Two%20Chinese%20Poems.jpg");
+}
+
+#piece-14 {
+  background-image: url("../../assets/img/Mosaic.jpg");
+}
+
+#piece-15 {
+  background-image: url("../../assets/img/All%20the%20better%20to%20see.png");
+}
+
+#piece-16 {
+  background-image: url("../../assets/img/Suite%20for%20harp.jpg");
+}
+
+#piece-17 {
+  background-image: url("../../assets/img/Out%20of%20the%20blue.jpg");
+}
+
+#piece-18 {
+  background-image: url("../../assets/img/Double%20edged%20circle.png");
+}
+
+#piece-19 {
+  background-image: url("../../assets/img/Transcription%201.png");
+}
+
+#piece-20 {
+  background-image: url("../../assets/img/Interrelation%20Project.png");
+}
+
+#piece-22 {
+  background-image: url("../../assets/img/Day.jpg");
+}
+
+#piece-21 {
+  background-image: url("../../assets/img/I%20are.png");
+}
+
+#class-1 {
+  background-image: url("../../assets/img/Composition%20class.jpg");
+}
+
+#class-2 {
+  background-image: url("../../assets/img/Ableton%20class.png");
+}
+
+.attachment {
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 50px 0px;
+  padding-bottom: 50px;
+}
+
+.attachment-icon {
+  width: 70px;
+  height: auto;
+  color: black;
+}
+
+.contact-icon {
+  font-size: 25px;
+  position: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icon-circle {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 25px;
+  background-color: #222222;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .icon-circle {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    background-color: transparent;
+    color: #222222;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon-circle:hover {
+    background-color: #222222;
+    color: white;
+    border-radius: 25px;
+  }
+}
+
+.contact-col {
+  padding-bottom: 20px;
+}
+
+.contact-row {
+  padding: 0 10%;
+}
+
+@media (min-width: 992px) {
+  .contact-row {
+    padding: 0 25%;
+  }
+}
+
